@@ -1,1 +1,16 @@
 # Win11MonochromeV2
+![Screenshot 2026-01-11 003226](https://github.com/user-attachments/assets/bf7056a9-5337-4e7a-a8c1-557b9f107020)
+![Screenshot (11)](https://github.com/user-attachments/assets/1d355ad8-6ba8-4cd7-a9d9-5778dc618896)
+![Screenshot 2026-01-11 003505](https://github.com/user-attachments/assets/927093b5-6234-4cdc-b7a6-20094785949d)
+![Screenshot 2026-01-11 003453](https://github.com/user-attachments/assets/5efe2025-9bbd-433c-970d-790a2129e36b)
+![Screenshot 2026-01-11 003555](https://github.com/user-attachments/assets/9981f5ea-2d38-4f09-a1a5-7905c59e61f8)
+![Screenshot 2026-01-11 003551](https://github.com/user-attachments/assets/91d08a38-0acf-455e-8e8d-c96f36346ab3)
+![Screenshot 2026-01-11 003540](https://github.com/user-attachments/assets/28ba90a4-43d8-4a14-b0b9-78cd5311698e)
+![Screenshot 2026-01-11 004207](https://github.com/user-attachments/assets/147ef32f-97fb-4d0f-9f90-6dd296621d20)
+![Screenshot 2026-01-11 004057](https://github.com/user-attachments/assets/ad1a2457-c247-494e-a120-6df3b9ea0700)
+![Screenshot 2026-01-11 003519](https://github.com/user-attachments/assets/2770f23c-4fbe-4146-bb31-a872270e4446)
+![Screenshot 2026-01-11 004220](https://github.com/user-attachments/assets/5e35a35a-9a57-4065-9de9-648ab5b46c19)
+# Default Windows frames
+![Screenshot 2026-01-11 002957](https://github.com/user-attachments/assets/4d50fa59-c1d1-464c-9d71-428226564419)
+![Screenshot (10)](https://github.com/user-attachments/assets/f635ae27-915e-4735-85da-023c023f27e1)
+![Screenshot 2026-01-11 003038](https://github.com/user-attachments/assets/54d53f5e-39b4-4d3c-83e2-9b7c93e33818)
