@@ -1,0 +1,565 @@
+/*VARIABLES AND SOME DEFAULT SETTINGS*/
+:root {
+    --black: #18181b;
+    --white: #e5e7eb;
+    --hover: #e5e7eb80
+}
+*{
+    font-size: 12px;
+    color: var(--white);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+/*GENERAL CONFIGRATIONS*/
+.yasb-bar {
+	padding: 0;
+	margin: 0;
+    background-color: var(--black);
+}
+.widget {
+    padding: 0 0px;
+    margin: 0 4px;
+}
+.widget .icon {
+    font-size: 18px;
+}
+.widget .label {
+    color: var(--white);
+}
+/*WIDGET*/
+.home-widget {
+}
+
+.home-widget .label {
+    font-family: "JetBrainsMono NFP";
+    padding: 0px 8px;
+    margin-right: -8px;
+}
+
+/*HOME WIDGET DROPDOWN*/
+.home-menu {
+    background-color: var(--black);
+    margin-left: 6px;
+}
+.home-menu .menu-item {
+    padding: 8px 10px 10px 8px;
+    font-size: 12px;
+    font-family: "JetBrainsMono NFP";
+    font-weight: 600;
+    margin-left: 6px;
+}
+.home-menu .menu-item:hover {
+    background-color:rgba(128, 130, 158, 0.15);
+    color: var(--white);
+    margin-left: 6px;
+}
+
+
+.komorebi-active-layout .label {
+    font-size: 14px;
+    color: var(--white);
+}
+
+.komorebi-active-layout {
+    background-color: var(--black);
+    height: 1;
+}
+
+.komorebi-layout-menu {
+    background-color: var(--black);
+    border: 0px solid var(--white);
+    border-radius: 0px;
+}
+.komorebi-layout-menu .menu-item {
+    padding: 4px 10px;
+    font-size: 15px;
+    color: var(--white); 
+    font-weight: 600;
+}
+.komorebi-layout-menu .menu-item-icon {
+    color: var(--white);
+    font-size: 15px;
+}
+.komorebi-layout-menu .menu-item-text {
+    font-family: 'JetBrainsMono NFP';
+    padding-left:0px;
+    font-size: 12px;
+} 
+.komorebi-layout-menu .menu-item:hover {
+    background-color:rgba(128, 130, 158, 0.15);
+    color: #fff;
+} 
+
+
+/*KOMOREBI-WORKSPACES*/
+.komorebi-workspaces {
+  background-color: var(--black);
+}
+.komorebi-workspaces .offline-status {
+  color: var(--black);
+  font-size: 14px;
+}
+.komorebi-workspaces .ws-btn {
+  border: none;
+  font-family: JetBrainsMono NFP;
+  font-size: 14px;
+  padding: 7px;
+  margin-top: 2px;
+  font-weight: bold;
+  border-bottom: 2px solid;
+  border-color: var(--black);
+}
+.komorebi-workspaces .ws-btn.populated {
+  background-color: var(--black);
+  color: var(--white);
+  border-bottom: 2px solid;
+  border-color: var(--black);
+}
+.komorebi-workspaces .ws-btn.active {
+  background-color: var(--black);
+  color: var(--white);
+  border-bottom: 2px solid;
+  border-color: var(--white);
+}
+
+
+/*WEATHER WIDGET*/
+.weather-widget {
+    padding: 0;
+    padding-left: -5
+}
+.weather-widget .icon {
+    color: var(--yellow);
+    padding: 6px;
+}
+.weather-widget .label {
+    font-size: 14px;
+    font-family: JetBrainsMono NFP;
+}
+/*ACTIVE WINDOW WIDGET*/
+.active-window-widget .label {
+    font-size: 14px;
+    font-family: JetBrainsMono NFP;
+}
+.active-window-widget .icon {
+    padding-right: 6px;
+    border: none;
+}
+/*CLOCK - CALENDAR WIDGET*/
+.clock-widget .label {
+    font-size: 14px;
+    font-family: JetBrainsMono NFP;
+    color: var(--white);
+    font-weight: bold;
+}
+
+.clock-widget {
+    background-color: var(--black);
+}
+
+/*CLOCK - CALENDAR WIDGET DROPDOWN*/
+.calendar {
+    background-color: var(--black);
+    border: 0px solid var(--black);
+    border-radius: 6px;
+}
+.calendar .calendar-table,
+.calendar .calendar-table::item {
+    background-color: var(--black);
+    color: var(--white);
+    font-family: 'JetBrainsMono NFP';
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;  
+}
+.calendar .calendar-table::item:selected {
+    color: var(--white);
+}
+.calendar .day-label {
+    margin-top: 20px;
+}
+.calendar .day-label,
+.calendar .month-label,
+.calendar .date-label {
+    font-family: 'JetBrainsMono NFP';
+    font-size: 16px;
+    color: var(--white);
+    font-weight: 700;
+    min-width: 180px;
+    max-width: 180px;
+}
+.calendar .month-label {
+    font-weight: normal;
+}
+.calendar .date-label {
+    font-size: 88px;
+    font-weight: 900;
+    color: var(--white);
+    margin-top: -20px;
+}
+/*DISK WIDGET*/
+.disk-widget {
+    padding: 0;
+}
+/*DISK DROPDOWN*/
+.disk-group {
+    background-color: var(--mantle);    
+}
+.disk-group-row {
+    min-width: 220px;
+    max-width: 220px;
+    max-height: 40px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+.disk-group-row:hover {
+    background-color:rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.disk-group-label-bar{
+    max-height: 8px;
+    border:0px solid rgba(128, 128, 128, 0);
+    background-color: rgba(148, 226, 213, 0.3);
+    border-radius: 4px;
+}
+.disk-group-label-bar::chunk{
+    background-color: rgba(148, 226, 213, 1);
+    border-radius: 4px;
+}
+.disk-group-label {
+    font-size: 13px;
+}
+.disk-group-label-size {
+    font-size: 12px;
+    color: rgba(205, 214, 244, 0.5);
+}
+/*AUDIO WIDGET*/
+.volume-widget {
+    background-color: var(--black);
+}
+.volume-widget .icon {
+    padding: 0 6px;
+    color: var(--white);
+    padding-left: 5px;
+    padding-top: 1;
+}
+.volume-widget .label {
+    font-size: 14px;
+    font-family: JetBrainsMono NFP;
+    color: var(--white);
+}
+/*AUDIO DROPDOWN*/
+.audio-menu {
+    background-color: var(--black);
+}
+.audio-container .device {
+    font-family: JetBrainsMono NFP;
+    background-color: transparent;
+    border: none;
+    padding:6px 8px 6px 4px;
+    margin: 2px 0;
+    font-size: 14px;
+    border-radius: 4px;
+}
+.audio-container .device.selected {
+    background-color: rgba(255, 255, 255, 0.085);
+}
+.audio-container .device:hover {
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+/*MEDIA WIDGET*/
+.media-widget {
+    background-color: var(--black);
+}
+.media-widget .label {
+    font-family: JetBrainsMono NFP;
+    font-size: 14px;
+    color: var(--white);
+}
+.media-widget .btn {
+    color: var(--white);
+    padding-left: -20px;
+}
+.media-widget .icon{
+}
+
+/*MEDIA POPUP*/
+.media-menu {
+  min-width: 416px;
+  max-width: 416px;
+  background-color: var(--black);
+  border-radius: 0px;
+  border: 2px solid var(--black);
+}
+.media-menu .thumbnail {
+  border: 2px solid var(--white);
+  border-radius: 0px;
+}
+.media-menu .title,
+.media-menu .artist,
+.media-menu .source {
+  font-size: 16px;
+  font-weight: bold;
+  font-family: JetBrainsMono NFP;
+  color: var(--white);
+  margin-left: 10px;
+}
+.media-menu .artist {
+  font-size: 13px;
+  color: var(--white);
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.media-menu .source {
+  font-size: 13px;
+  color: var(--white);
+  font-weight: bold;
+  font-family: JetBrainsMono NFP;
+  border-radius: 0px;
+  background-color: var(--white);
+  padding: 2px 6px;
+}
+.media-menu .source.firefox {
+  background-color: #ff583b;
+  color: #e5e7eb;
+}
+.media-menu .source.spotify {
+  background-color: #199143;
+  color: #e5e7eb;
+}
+.media-menu .source.edge {
+  background-color: #0078d4;
+  color: #e5e7eb;
+}
+.media-menu .source.windows-media {
+  background-color: #0078d4;
+  color: #e5e7eb;
+}
+.media-menu .btn {
+  font-family: "Segoe Fluent Icons";
+  font-size: 14px;
+  font-weight: bold;
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  color: var(--white);
+}
+.media-menu .btn.prev {
+  margin-left: 10px;
+  color: var(--white);
+}
+.media-menu .btn:hover {
+  color: var(--icon);
+  background-color: transparent;
+}
+.media-menu .btn.play {
+  background-color: var(--black);
+  font-size: 20px;
+}
+.media-menu .btn.disabled:hover,
+.media-menu .btn.disabled {
+  color: var(--white);
+  background-color: rgba(0, 0, 0, 0);
+}
+.media-menu .playback-time {
+  font-size: 14px;
+  font-family: Arial;
+  font-weight: bold;
+  color: var(--white);
+  margin-top: 12px;
+  min-width: 100px;
+}
+.media-menu .progress-slider {
+  height: 10px;
+  border-radius: 3px;
+  color: var(--white);
+}
+.media-menu .progress-slider::groove {
+  background: var(--subtext0);
+  height: 4px;
+  border-radius: 3px;
+}
+.media-menu .progress-slider::groove:hover {
+  background: var(--subtext0);
+  height: 6px;
+  border-radius: 3px;
+}
+.media-menu .progress-slider::sub-page {
+  background: var(--white);
+  border-radius: 6px;
+  height: 4px;
+}
+
+/*WALLPAPERS GALLERY*/
+.wallpapers-gallery-window {
+    background-color: var(--black);
+}
+.wallpapers-gallery-buttons {
+    font-size: 12px;
+    font-family: 'JetBrainsMono NFP';
+    background-color: var(--white);
+    color: var(--black);
+    font-size: 14px;
+    padding: 8px 0;
+    margin:0 8px 8px 8px;
+    width: 600px;
+    border-radius: 0px;
+}
+.wallpapers-gallery-buttons:hover {
+    background-color:#e5e7ebd0;
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+}
+.wallpapers-gallery-image:hover {
+    border: 3px solid var(--hover);
+}
+.wallpapers-gallery-image.focused {
+}
+/*POWER WIDGET*/
+.power-menu-widget .label {
+	color: var(--white);
+    font-size: 16px;
+}
+/*POWER MENU POPUP*/
+.uptime {
+	font-size: 14px;
+	margin-bottom: 10px;
+	color: rgba(191, 202, 219, 0.726);
+	font-weight: 600;
+	font-family: "JetBrainsMono NFP";
+}
+.power-menu-popup .button {
+	padding: 0;
+	width: 160px;
+	height: 240px;
+	border-radius: 0px;
+	background-color: var(--black);
+	font-family: "Bahnscrift";
+	color: white;
+	border: 0px solid var(--black);
+ 
+}
+.power-menu-popup .button.hover {
+	background-color: #3d3d3d;
+}
+.power-menu-popup .button .label {
+	margin-bottom: 8px;
+	font-size: 16px;
+	font-weight: 600;
+	color: var(--white);
+	font-family: "JetBrainsMono NFP";
+}
+.power-menu-popup .button .icon {
+	font-size: 64px;
+	padding-top: 54px;
+	color: var(--white);
+}
+.power-menu-popup .button.cancel .icon {
+	color: rgba(243, 139, 168, 0.55);
+}
+.power-menu-popup .button.cancel .label {
+	color: rgba(243, 139, 168, 0.95);
+}
+.cava-widget {
+    background-color: var(--black);
+}
+/*GITHUB WIDGET*/
+.github-widget {
+    padding: 0;
+}
+.github-widget .icon {
+    font-size: 16px;
+}
+
+/*SYSTEM TRAY*/
+.systray {
+}
+.systray .button {
+  background: var(--black); 
+}
+.systray .unpinned-visibility-btn {
+  border-radius: 0px;
+  color: var(--white);
+  font-family: "Segoe Fluent Icons";
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.systray .label {
+    background-color: #3fb950;
+}
+
+.taskbar-widget {
+}
+
+.taskbar-widget .app-container {
+    background-color: var(--black);
+    border: 0px solid;
+    border-color: var(--white);
+}
+.taskbar-widget .app-container.foreground {
+    background-color: var(--black);
+    border-bottom: 2px solid;
+    border-color: var(--white);
+    margin-top: 2px;
+    
+}
+
+.taskbar-widget .app-container.foreground .app-title:hover {
+    margin: 4px 2px;
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.taskbar-widget .app-container.flashing {
+    background-color: rgba(255, 106, 106, 0.63);
+    margin: 3px 2px;
+}
+.taskbar-widget .app-container.running {
+    background-color: var(--black);
+    margin: 3px 2px;
+}
+
+.taskbar-widget .app-container.running .app-title:hover{
+    color: var(--black);
+    background-color: var(--white);
+    margin: 3px 2px;
+}
+
+
+.taskbar-widget .app-container .app-title {
+    color: var(--white);
+    font-family: JetBrainsMono NFP;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+/* Taskbar preview popup is very limited in styling options, do not use margins/paddings here */
+.taskbar-preview {
+    border-radius: 0px; 
+    background-color: var(--black); 
+}
+.taskbar-preview.flashing { 
+    background-color: #7f434a;
+}
+.taskbar-preview .header {
+    padding-bottom: 12px;
+    padding-top: 4px;
+}
+.taskbar-preview .header .title {
+    color: var(--white);
+    font-family: "JetBrainsMono NFP";
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.separator-widget .widget-container .label{
+    color: var(--white);
+}
