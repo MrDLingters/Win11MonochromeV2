@@ -1,6 +1,7 @@
 ## Light mode version
 ![Screenshot 2026-01-15 204714](https://github.com/user-attachments/assets/be219522-7fca-4aaa-bd87-335c81ac7031)
 ![Screenshot 2026-01-15 222259](https://github.com/user-attachments/assets/031904fa-25e8-4384-aa54-ae8b0289373a)
+![Screenshot 2026-01-16 175623](https://github.com/user-attachments/assets/133cf5be-b67c-475f-beae-2323e02addbc)
 ![Screenshot 2026-01-15 222252](https://github.com/user-attachments/assets/1f7d33d6-a142-4e70-8c49-065132d13f37)
 ![Screenshot 2026-01-15 204950](https://github.com/user-attachments/assets/c25228cf-7b75-4c8c-af19-8de6e485a1f8)
 ![Screenshot (13)](https://github.com/user-attachments/assets/1f661443-b8bc-447a-9310-4c2a8d5cfd95)
