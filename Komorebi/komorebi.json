@@ -6,7 +6,7 @@
   "transparency": true,
   "transparency_alpha": 252,
   "default_workspace_padding": -1,
-  "default_container_padding": -1,
+  "default_container_padding": 0,
   "border": false,
   "border_width": 0,
   "border_offset": 0,
@@ -39,7 +39,7 @@
         },
         {
           "name": "III",
-          "layout": "HorizontalStack"
+          "layout": "UltrawideVerticalStack"
         }
       ]
     },
@@ -56,7 +56,7 @@
         },
         {
           "name": "3",
-          "layout": "HorizontalStack"
+          "layout": "UltrawideVerticalStack"
         },
 	
       ]
@@ -85,7 +85,7 @@
 },
 {
 "kind": "Exe",
-"id": "Files.exe",
+"id": "AmneziaVPN.exe",
 "matching_strategy": "Equals",
 }
 ]
