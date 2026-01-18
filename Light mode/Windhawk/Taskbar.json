@@ -142,8 +142,9 @@
   "controlStyles[42].target": "SystemTray.OmniButton#NotificationCenterButton > Windows.UI.Xaml.Controls.Grid > Windows.UI.Xaml.Controls.Border#BackgroundBorder",
   "controlStyles[42].styles[0]": "Margin=2,5,2,4",
   "controlStyles[43].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Border#BackgroundElement",
-  "controlStyles[43].styles[0]": "Background:=<ImageBrush Stretch=\"none\" ImageSource=\"C:\\Users\\Darren\\iCloudDrive\\Rice\\Monochrome\\Light mode\\WinButton.png\"/>",
+  "controlStyles[43].styles[0]": "Background:=<ImageBrush Stretch=\"none\" ImageSource=\"https://raw.githubusercontent.com/MrDLingters/Win11MonochromeV2/refs/heads/main/Light%20mode/Windhawk/WinButton.png"/>",
   "controlStyles[44].target": "Taskbar.ExperienceToggleButton#LaunchListButton[AutomationProperties.AutomationId=StartButton] > Taskbar.TaskListButtonPanel > Microsoft.UI.Xaml.Controls.AnimatedVisualPlayer#Icon",
   "controlStyles[44].styles[0]": "Visibility=Collapsed",
   "theme": ""
+
 }
