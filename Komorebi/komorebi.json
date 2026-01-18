@@ -5,7 +5,7 @@
   "cross_monitor_move_behaviour": "Insert",
   "transparency": true,
   "transparency_alpha": 252,
-  "default_workspace_padding": 0,
+  "default_workspace_padding": -1,
   "default_container_padding": 0,
   "border": false,
   "border_width": 0,
@@ -90,4 +90,5 @@
 }
 ]
 }
+
 
