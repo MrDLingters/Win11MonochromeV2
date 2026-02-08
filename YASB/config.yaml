@@ -14,12 +14,12 @@ bars:
       position: "bottom"
       center: false
     blur_effect:
-      enabled: false
-      acrylic: false
-      dark_mode: true
-      round_corners: true
+      enabled: true
+      acrylic: true
+      dark_mode: false
+      round_corners: false
     window_flags:
-      always_on_top: true
+      always_on_top: false
       windows_app_bar: true
       hide_on_fullscreen: true
     dimensions:
@@ -33,7 +33,7 @@ bars:
     widgets:
       left:
         [
-          "home",
+          "win_button",
           "komorebi_workspaces",
           "komorebi_active_layout",
           "lines",
@@ -66,7 +66,7 @@ widgets:
       - { title: "Documents", path: "C:\\Users\\Darren\\Documents"}
       - { title: "Pictures", path: "C:\\Users\\Darren\\Pictures"}
       - { title: "Videos", path: "C:\\Users\\Darren\\Videos"}
-      system_menu: true
+      system_menu: false
       power_menu: false
       blur: false
       round_corners: false
@@ -171,9 +171,9 @@ widgets:
           direction: "up"
           offset_top: 5
           offset_left: 0
-          thumbnail_size: 90
-          thumbnail_corner_radius: 6
-          max_title_size: 60
+          thumbnail_size: 100
+          thumbnail_corner_radius: 0
+          max_title_size: 55
           max_artist_size: 50
           show_source: true
         media_menu_icons:
@@ -283,13 +283,10 @@ widgets:
       gradient: 0
       reverse: 0
       sensitivity: 90
-      foreground: "#e5e7eb"
-      gradient_color_1: '#e5e7eb'
-      gradient_color_2: '#e5e7eb'
-      gradient_color_3: '#e5e7eb'
       bars_number: 12
       bar_spacing: 2
       bar_width: 4
+      foreground: "#e5e7eb"
       sleep_timer: 0
       hide_empty: true
       container_padding:
@@ -408,8 +405,8 @@ widgets:
   win_button:
       type: "yasb.custom.CustomWidget"
       options:
-        label: "\ue62a"
-        label_alt: "\ue62a"
+        label: "家"
+        label_alt: "家"
         class_name: "system-widget"
         callbacks:
           on_left: "exec start_menu"
