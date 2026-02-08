@@ -1,0 +1,94 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+    "window_hiding_behaviour": "Cloak",
+  "cross_monitor_move_behaviour": "Insert",
+  "transparency": false,
+  "transparency_alpha": 252,
+  "default_workspace_padding": 20,
+  "default_container_padding": 5,
+  "border": true,
+  "border_style":"Square",
+  "border_width": 3,
+  "border_offset": -1,
+  "mouse_follows_focus": false,
+  "animation": {
+    "enabled": true,
+    "duration": 160,
+    "fps": 300,
+    "style": {
+        "movement":"EaseInOutQuad",
+        "transparency": "Linear"
+      }
+},
+  "border_colours": {
+    "single": "#e5e7eb",
+    "unfocused": "#7a7c7d",
+    "floating": "#e5e7eb",
+    "monocle": "#b2b2b2"
+  },
+  "monitors": [
+    // monitor 1, index 0
+    {
+      "workspaces": [
+        {
+          "name": "I",
+          "layout": "BSP"
+        },
+        {
+          "name": "II",
+          "layout": "Grid"
+        },
+        {
+          "name": "III",
+          "layout": "UltrawideVerticalStack"
+        }
+      ]
+    },
+    // monitor 2, index 1
+    {
+      "workspaces": [
+        {
+          "name": "Home",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "Grid"
+        },
+        {
+          "name": "3",
+          "layout": "UltrawideVerticalStack"
+        },
+	
+      ]
+    }
+  ],
+ "ignore_rules": [
+{
+"kind": "Exe",
+"id": "ACShadows.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "Overwatch.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "Photos.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "PotPlayerMini64.exe",
+"matching_strategy": "Equals",
+},
+{
+"kind": "Exe",
+"id": "AmneziaVPN.exe",
+"matching_strategy": "Equals",
+}
+]
+}
