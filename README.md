@@ -1,4 +1,5 @@
 # Win11MonochromeV2
+### For YASB use latest version of [Akira theme](https://github.com/MrDLingters/Akira_YASB) with chosen color scheme.
 ![Screenshot 2026-01-11 003226](https://github.com/user-attachments/assets/bf7056a9-5337-4e7a-a8c1-557b9f107020)
 ![Screenshot (11)](https://github.com/user-attachments/assets/1d355ad8-6ba8-4cd7-a9d9-5778dc618896)
 ![Screenshot 2026-01-11 005656](https://github.com/user-attachments/assets/0bac3757-1eb9-49a7-95da-8edd053597cc)
